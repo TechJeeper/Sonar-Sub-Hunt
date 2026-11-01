@@ -1,0 +1,61 @@
+{
+  "name": "sonar-sub-hunt",
+  "author": "caffeinegamer",
+  "version": "1.0.0",
+  "keywords": [
+    "pebble-app",
+    "game",
+    "sonar",
+    "compass"
+  ],
+  "private": true,
+  "dependencies": {
+    "@rebble/clay": "^1.1.0"
+  },
+  "pebble": {
+    "displayName": "Sonar Sub Hunt",
+    "uuid": "a7c4e91b-2f58-4d6a-9b13-8e0c5d47a2f1",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "emery",
+      "basalt",
+      "diorite",
+      "flint"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "capabilities": [
+      "configurable"
+    ],
+    "messageKeys": [
+      "FeedbackMode"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type": "bitmap",
+          "name": "IMAGE_MENU_ICON",
+          "file": "images/menu_icon.png",
+          "menuIcon": true
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_SUB",
+          "file": "images/sub.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_RETICLE",
+          "file": "images/reticle.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_TITLE",
+          "file": "images/title.png"
+        }
+      ]
+    }
+  }
+}
